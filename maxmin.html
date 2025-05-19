@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-6">
+            <fieldset>
+                <legend>Saisir trois entier</legend>
+                <label for="Entier-1">Entier 1</label>
+                <input type="number" name="Entier-1" id="Entier-1" class="ent">
+                <label for="Entier-2">Entier 2</label>
+                <input type="number" name="Entier-2" id="Entier-2" class="ent">
+                <label for="Entier-3">Entier 3</label>
+                <input type="number" name="Entier-3" id="Entier-3" class="ent">
+            </fieldset>
+        </div>
+        <div class="col-md-6">
+            <button onclick="nouveau()">Nouveau</button>
+            <button onclick="valider()">Valider</button>
+        </div>
+        <div class="col-md-6">
+            <fieldset>
+                <legend>max min</legend>
+                <label for="max">max</label>
+                <input type="number" name="max" id="max" disabled>
+                <label for="min">min</label>
+                <input type="number" name="min" id="min" disabled>
+            </fieldset>
+        </div>
+        <div class="col-md-6">
+            <fieldset>
+                <legend>verification</legend>
+                <input type="text" name="verification" id="verification" disabled>
+            </fieldset>
+        </div>
+    </div>
+</body>
+<script src="script5.js"></script>
+
+</html>
