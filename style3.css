@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+.col-md-6 {
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.ent,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[disabled] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 1 1 100%;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+.ent{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
